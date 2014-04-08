@@ -7,10 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Task.h"
 
 @interface QuizDetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
+@property (strong, nonatomic) Task *detailItem;
+@property (weak, nonatomic) IBOutlet UITextField *nameField;
+@property (weak, nonatomic) IBOutlet UILabel *urgencyLabel;
+@property (weak, nonatomic) IBOutlet UISlider *urgencySlider;
+@property (weak, nonatomic) IBOutlet UIDatePicker *datePicker;
+- (IBAction)save:(id)sender;
+- (IBAction)urgencyChanged:(id)sender;
+@property (nonatomic, copy) void (^dismissBlock)(void);
 
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

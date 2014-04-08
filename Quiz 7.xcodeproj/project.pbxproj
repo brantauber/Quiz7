@@ -25,6 +25,7 @@
 		BF1CACC718F32CC300B6F134 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1CACA218F32CC300B6F134 /* CoreData.framework */; };
 		BF1CACCF18F32CC300B6F134 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF1CACCD18F32CC300B6F134 /* InfoPlist.strings */; };
 		BF1CACD118F32CC300B6F134 /* Quiz_7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CACD018F32CC300B6F134 /* Quiz_7Tests.m */; };
+		BF1CACDC18F32E3000B6F134 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1CACDB18F32E3000B6F134 /* Task.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		BF1CACCC18F32CC300B6F134 /* Quiz 7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quiz 7Tests-Info.plist"; sourceTree = "<group>"; };
 		BF1CACCE18F32CC300B6F134 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF1CACD018F32CC300B6F134 /* Quiz_7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quiz_7Tests.m; sourceTree = "<group>"; };
+		BF1CACDA18F32E3000B6F134 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		BF1CACDB18F32E3000B6F134 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +133,8 @@
 				BF1CACB718F32CC300B6F134 /* QuizMasterViewController.m */,
 				BF1CACB918F32CC300B6F134 /* QuizDetailViewController.h */,
 				BF1CACBA18F32CC300B6F134 /* QuizDetailViewController.m */,
+				BF1CACDA18F32E3000B6F134 /* Task.h */,
+				BF1CACDB18F32E3000B6F134 /* Task.m */,
 				BF1CACBC18F32CC300B6F134 /* Images.xcassets */,
 				BF1CACB318F32CC300B6F134 /* Quiz_7.xcdatamodeld */,
 				BF1CACA518F32CC300B6F134 /* Supporting Files */,
@@ -268,6 +273,7 @@
 				BF1CACB818F32CC300B6F134 /* QuizMasterViewController.m in Sources */,
 				BF1CACAF18F32CC300B6F134 /* QuizAppDelegate.m in Sources */,
 				BF1CACB518F32CC300B6F134 /* Quiz_7.xcdatamodeld in Sources */,
+				BF1CACDC18F32E3000B6F134 /* Task.m in Sources */,
 				BF1CACBB18F32CC300B6F134 /* QuizDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
